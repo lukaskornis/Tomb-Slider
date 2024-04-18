@@ -30,13 +30,6 @@ public class Player : MonoBehaviour
     {
         var newInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        var hit = Physics2D.Raycast(transform.position, input, 1f, wallLayer);
-        if (newInput != Vector2.zero && hit.collider != null && newInput != input)
-        {
-            input = newInput;
-            transform.up = -input;
-            hasLanded = false;
-        }
 
         // land particles
         if (rb.velocity.magnitude < 0.1f && !hasLanded)
@@ -44,6 +37,15 @@ public class Player : MonoBehaviour
             hasLanded = true;
             var obj = Instantiate( landParticles, transform.position, Quaternion.identity);
             obj.transform.up = transform.up;
+        }
+
+
+        var hit = Physics2D.Raycast(transform.position, input, 1f, wallLayer);
+        if (newInput != Vector2.zero && hit.collider != null && newInput != input)
+        {
+            input = newInput;
+            transform.up = -input;
+            hasLanded = false;
         }
 
         rb.velocity = input * moveSpeed;

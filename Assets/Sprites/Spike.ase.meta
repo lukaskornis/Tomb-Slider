@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c02924d06e86b4a86a28a9c3a86fd654
+guid: dff003f80bad447a0ae2e25049795790
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,38 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Coin_Frame_0
+  - name: Spike_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.49999997, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 4
+      width: 4
+      height: 4
+    spriteID: d9ad58d40c7994099a1dd759d3cc99cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 4}
+  - name: Spike_Frame_1
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 4
-      height: 4
-    spriteID: fb392ec13d96a43ae847756656a7edaf
+      width: 11
+      height: 3
+    spriteID: 08a73d6f7314b432689160f119c55a23
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,51 +161,31 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Coin_Frame_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 16
-      width: 4
-      height: 4
-    spriteID: a92435a0a7f694c059d631ad588484dc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 16}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1609295079
-    name: Coin
+    guid: -445206800
+    name: Spike
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Coin_Frame_0
+    - name: Spike_Frame_0
       frameIndex: 0
       cellRect:
         x: 4
         y: 4
         width: 4
         height: 4
-      spriteId: fb392ec13d96a43ae847756656a7edaf
-    - name: Coin_Frame_1
+      spriteId: d9ad58d40c7994099a1dd759d3cc99cb
+    - name: Spike_Frame_1
       frameIndex: 1
       cellRect:
-        x: 4
-        y: 4
-        width: 4
-        height: 4
-      spriteId: a92435a0a7f694c059d631ad588484dc
+        x: 1
+        y: 0
+        width: 11
+        height: 3
+      spriteId: 08a73d6f7314b432689160f119c55a23
     linkedCells: []
     parentIndex: -1
   platformSettings:

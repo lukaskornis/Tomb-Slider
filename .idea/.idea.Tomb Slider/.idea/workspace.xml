@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6bd3412a-8a35-4935-b28a-e77c69ff2d7e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tomb Slider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tomb Slider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player.ase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player.ase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Coin.ase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Coin.ase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/World Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/World Palette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
